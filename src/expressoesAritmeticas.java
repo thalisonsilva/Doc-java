@@ -47,5 +47,12 @@ public class expressoesAritmeticas {
     // 2. Multiplicação (*), divisão (/). Módula (%).
     // 3. Adição (+), Subtração (-).
 
+    //Uso combinado do Operadores:
+    int l = 10;
+    int m = 5;
+    int n = 2;
+    int result = (l + m) * n - (l / m) % c; 
+    System.out.println("resultado: " + result);
+
     }
 }
