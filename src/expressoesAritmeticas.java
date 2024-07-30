@@ -21,7 +21,7 @@ public class expressoesAritmeticas {
     
     System.out.println(sauldacao);
 
-    
+
     //Multiplicação
     int e = 20;
     int f = 5;
@@ -40,6 +40,12 @@ public class expressoesAritmeticas {
     int j = 4;
     int mod = i % j;
     System.out.println("Mod: " + mod);
+
+
+    //Ordem de precedencia:
+    // 1. Parênteses ().
+    // 2. Multiplicação (*), divisão (/). Módula (%).
+    // 3. Adição (+), Subtração (-).
 
     }
 }
